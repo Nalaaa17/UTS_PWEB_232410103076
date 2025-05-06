@@ -47,15 +47,15 @@ class PageController extends Controller
     }
 
     public function pengelolaan()
-    {
-        $data = [
-            ['nama' => 'Padi', 'jumlah' => 100],
-            ['nama' => 'Jagung', 'jumlah' => 50],
-            ['nama' => 'Kedelai', 'jumlah' => 70],
-            ['nama' => 'Tebu', 'jumlah' => 30],
-            ['nama' => 'Cabai', 'jumlah' => 100]
-        ];
+{
+    $data = [
+        ['nama' => 'Padi', 'jumlah' => '100 kg'],
+        ['nama' => 'Jagung', 'jumlah' => '50 kg'],
+        ['nama' => 'Kedelai', 'jumlah' => '70 kg'],
+        ['nama' => 'Tebu', 'jumlah' => '30 kg'],
+        ['nama' => 'Cabai', 'jumlah' => '100 kg']
+    ];
 
-        return view('pengelolaan', compact('data'));
-    }
+    return view('pengelolaan', compact('data'));
+}
 }
