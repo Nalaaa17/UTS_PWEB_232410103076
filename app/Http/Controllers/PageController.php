@@ -18,7 +18,7 @@ class PageController extends Controller
 
 
         if ($username === 'alan' && $password === '123') {
-            // Simpan ke session
+
             session(['username' => $username]);
             return redirect()->route('dashboard');
         }
