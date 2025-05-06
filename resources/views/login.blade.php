@@ -2,11 +2,7 @@
 
 @section('content')
 <style>
-    body {
-        background-image: url('/images/bg-pertanian.jpg'); /* Simpan gambar di public/images */
-        background-size: cover;
-        background-position: center;
-    }
+
 
     .bg-overlay {
         background-color: rgba(255, 255, 255, 0.85);
